@@ -1,9 +1,8 @@
 # WeatherApp
 > This project is a part of Klaviyo coding challenge.
 
-- The WeatherApp can subscribe users to the discount newsletters and sends weather powered personalized emails to the subscribers.
+* The WeatherApp can subscribe users to the discount newsletters and sends weather powered personalized emails to the subscribers.
 
-> This project is a part of Klaviyo coding challenge.
 
 
 ## Table of Contents (Optional)
