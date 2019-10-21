@@ -8,7 +8,7 @@
 ## Table of Contents (Optional)
 
 - [Installation](#installation)
-- [Setup / Usage](#Setup / Usage)
+- [Usage](#Usage)
 - [Documentation](Documentation)
 
 
@@ -22,7 +22,7 @@
 
 - Clone this repo to your local machine using `https://github.com/nanavatirutu/WeatherApp.git`
 
-## Setup / Usage
+## Usage
 
 - To set up the system and get started:
 > First subscribe the users
