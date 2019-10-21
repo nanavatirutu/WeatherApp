@@ -1,50 +1,64 @@
-<img src="weatherapp/static/images/weather.gif" alt="weather" style="width:150px;height:150px;">
 # WeatherApp
 
 > The WeatherApp can subscribe users to the discount newsletters and sends weather powered personalized emails to the subscribers.
 
-> To view the su
+> This project is a part of Klaviyo coding challenge.
 
-> include terms/tags that can be searched
 
 ## Table of Contents (Optional)
 
-> If your `README` has a lot of info, section headers might be nice.
-
 - [Installation](#installation)
-- [Features](#features)
-- [Contributing](#contributing)
-- [Team](#team)
-- [FAQ](#faq)
-- [Support](#support)
-- [License](#license)
+- [Setup / Usage](#Setup / Usage)
+- [Documentation](Documentation)
+
 
 
 ## Installation
 
-- All the `code` required to get started
-- Images of what it should look like
+- All the requirements for this project are in file `requirements.txt` required to get started
+
 
 ### Clone
 
-- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
+- Clone this repo to your local machine using `https://github.com/nanavatirutu/WeatherApp.git`
 
-### Setup
+## Setup / Usage
 
-- If you want more syntax highlighting, format your code like this:
-
-> update and install this package first
+- To set up the system and get started:
+> First subscribe the users
 
 ```shell
-$ brew update
-$ brew install fvcproductions
+$ python manage.py runserver
+```
+> The terminal will display the url
+```shell
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 21, 2019 - 06:39:37
+Django version 2.2.5, using settings 'weatherapp.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
 ```
 
-> now install npm and bower packages
+> now go to `http://127.0.0.1:8000/` or `http://localhost:8000/`
+> Subscribe yourself by adding email and location
+> now quit the server with CONTROL-C
+
+- To send email
+ 
+> add sendgrid api and set up the API client
 
 ```shell
-$ npm install
-$ bower install
+$ echo "export SENDGRID_API_KEY='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'" > sendgrid.env
+$ echo "sendgrid.env" >> .gitignore
+$ source ./sendgrid.env
+```
+> send email to the subscribers through terminal
+
+```shell
+$ python manage.py send_email
 ```
 
 ## Features
