@@ -42,7 +42,7 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 
-- Now go to `http://127.0.0.1:8000/` or <a href = "http://localhost:8000/">.
+- Now go to <a href = "http://127.0.0.1:8000/">`http://127.0.0.1:8000/`<\a> or <a href = "http://localhost:8000/">`http://localhost:8000/`<\a>.
 - Subscribe yourself by adding email and location.
 > now quit the server with CONTROL-C
 
