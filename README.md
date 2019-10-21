@@ -9,7 +9,7 @@
 
 - [Installation](#installation)
 - [Usage](#Usage)
-- [Documentation](Documentation)
+- [References](#References)
 
 
 
@@ -61,7 +61,8 @@ $ source ./sendgrid.env
 $ python manage.py send_email
 ```
 
-## Features
-## Usage (Optional)
-## Documentation (Optional)
-## Tests (Optional)
+## References:
+- <a href = "https://ballotpedia.org/Largest_cities_in_the_United_States_by_population">`Top 100 cities in US by populations.`</a>
+- <a href = "https://simpleisbetterthancomplex.com/tutorial/2018/11/28/advanced-form-rendering-with-django-crispy-forms.html">`Advanced Form Rendering with Django Crispy Forms by Vitor Freitas`</a>
+- <a href = "https://openweathermap.org/API">` OpenWeatherMap API.`</a>
+- <a href = "https://sendgrid.com/solutions/email-api/">` SendGrid email API.`</a>
