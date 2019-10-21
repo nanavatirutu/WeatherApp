@@ -48,7 +48,7 @@ Quit the server with CONTROL-C.
 
 - To send email:
  
-> add sendgrid api and set up the API client
+> setup sendgrid API client settings:
 
 ```shell
 $ echo "export SENDGRID_API_KEY='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'" > sendgrid.env
