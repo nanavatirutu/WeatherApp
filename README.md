@@ -42,8 +42,8 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 
-> now go to `http://127.0.0.1:8000/` or `http://localhost:8000/`
-> Subscribe yourself by adding email and location
+- now go to `http://127.0.0.1:8000/` or `http://localhost:8000/`
+- Subscribe yourself by adding email and location
 > now quit the server with CONTROL-C
 
 - To send email
