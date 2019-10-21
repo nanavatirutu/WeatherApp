@@ -59,14 +59,21 @@ class Command(BaseCommand):
         subject = Command.getSubjectLine(todayWeather, tommorowWeather, weather_desc)
 
 
-        email_1 = open("weatherapp/static/email_1.txt","r+")
-        email_2 = open("weatherapp/static/email_2.txt","r+")
-
-        email_1 = email_1.read()
-        email_2 = email_2.read()
-
         temp  = round((todayWeather-273.15)*1.8+32.0)
-        message = email_1 + " " + str(temp) +"<strong>&#176;</strong>F, " + weather_desc +" in "+ location + email_2
+
+        email_txt = open("weatherapp/static/email.html","r+")
+        #email_2 = open("weatherapp/static/email_2.txt","r+")
+
+        emailContent = email_txt.read()
+        #email_2 = email_2.read()
+
+
+
+        message = emailContent.replace('{temp}',str(temp))
+        message = message.replace('{weather_desc}',weather_desc)
+        message = message.replace('{location}',location)
+        
+
         
         send_email(email, subject, message)
 
