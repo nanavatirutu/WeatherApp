@@ -1,3 +1,4 @@
+<img src="weatherapp/static/images/weather.gif" alt="weather" style="width:150px;height:150px;">
 # WeatherApp
 
 > The WeatherApp can subscribe users to the discount newsletters and sends weather powered personalized emails to the subscribers.
