@@ -1,5 +1,4 @@
 # WeatherApp
-> This project is a part of <a href = "https://www.klaviyo.com/weather-app">Klaviyo coding challenge </a>.
 
 * The WeatherApp can subscribe users to the discount newsletters and sends weather powered personalized emails to the subscribers.
 
